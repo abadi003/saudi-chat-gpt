@@ -10,6 +10,7 @@ import { AppHttpService } from './services/http.service';
 })
 export class AppComponent {
   title = 'saudi-chat-gpt';
+  response!:any
   regForm = new FormGroup({
     CompanySize: new FormControl("" , Validators.required),
     CompanyName: new FormControl("" ,Validators.required),
@@ -24,6 +25,9 @@ export class AppComponent {
 
   submit(){
     console.log(this.regForm)
-    this.http.getRegulation(this.regForm.value).subscribe(result => console.log(result))
+    this.http.getRegulation(this.regForm.value).subscribe(result => {
+      console.log(result)
+      this.response = result.result
+    })
   }
 }

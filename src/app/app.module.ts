@@ -8,11 +8,13 @@ import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppHttpService } from './services/http.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RatingComponent } from './rating/rating.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,
