@@ -17,7 +17,7 @@ LICENSE
 
 - Themify Icons font licensed under: http://scripts.sil.org/OFL
 - Code licensed under: http://opensource.org/licenses/mit-license.html
-- All brand icons are copyright/trademarks of their respective owners.
+- All brand icons are copyleft/trademarks of their respective owners.
 
 
 =====================================

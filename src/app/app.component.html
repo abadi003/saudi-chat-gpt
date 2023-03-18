@@ -29,16 +29,16 @@
       <div class="elementor-element elementor-element-9dd483a elementor-widget elementor-widget-contactform" data-id="9dd483a" data-element_type="widget" data-widget_type="contactform.default">
       <div class="elementor-widget-container">
     <div class="contact-form-wrapper cf-style-classic-pro"><div class="contact-form">
-<div class="wpcf7 js" id="wpcf7-f17499-p28040-o4" lang="en-US" dir="ltr">
+<div class="wpcf7 js" id="wpcf7-f17499-p28040-o4">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form  [formGroup]="regForm" (ngSubmit)="submit()" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form [formGroup]="regForm" (ngSubmit)="submit()" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div class="row">
 <div class="col-md-12">
   <p><span class="wpcf7-form-control-wrap" data-name="your-name"><input [formControl]="regForm.controls.CompanyName" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="اسم الشركة" value="" type="text" name="your-name"></span>
   </p>
 </div>
 <div class="col-md-4">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.CompanySize" class="form-control form-select" aria-label="Default select example">
+  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.CompanySize" class="" aria-label="Default select example">
     <option value="" selected disabled>حجم الشركة</option>
     <option value="الاتصالات السعودية">شركة كبرى</option>
     <option value="اسمنت اليمامة">شركة متوسطة</option>
@@ -47,7 +47,7 @@
   </p>
 </div>
 <div class="col-md-4">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.sectorName" class="form-control form-select" aria-label="Default select example">
+  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.sectorName" class="" aria-label="Default select example">
     <option value="" selected disabled>قطاع الشركة</option>
     <option value="الطاقة">الطاقة</option>
     <option value="المواد الاساسية">المواد الاساسية</option>
@@ -63,8 +63,8 @@
   </p>
 </div>
 <div class="col-md-4">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.RegulationName" class="form-control form-select" aria-label="Default select example">
-    <option value="" selected disabled>اللائحة</option>
+  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.RegulationName" class="" aria-label="Default select example">
+    <option value="" selected disabled>المادة</option>
     <option value="المعاملة العادلة للمساهمين">المعاملة العادلة للمساهمين</option>
     <option value="الحقوق المرتبطة بالأسهم">الحقوق المرتبطة بالأسهم</option>
     <option value="حصول المساهم على المعلومات">حصول المساهم على المعلومات</option>
@@ -84,7 +84,7 @@
   </p>
 </div>
 <div class="col-md-12 mt-3">
-  <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Send Now"><span class="wpcf7-spinner"></span>
+  <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="ارسل"><span class="wpcf7-spinner"></span>
   </p>
 </div>
 </div><div class="wpcf7-response-output" aria-hidden="true"></div>

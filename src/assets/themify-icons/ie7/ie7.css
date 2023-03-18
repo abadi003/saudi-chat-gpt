@@ -118,10 +118,10 @@
 .ti-arrow-up {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe627;');
 }
-.ti-arrow-right {
+.ti-arrow-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe628;');
 }
-.ti-arrow-left {
+.ti-arrow-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe629;');
 }
 .ti-arrow-down {
@@ -217,10 +217,10 @@
 .ti-angle-up {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe648;');
 }
-.ti-angle-right {
+.ti-angle-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe649;');
 }
-.ti-angle-left {
+.ti-angle-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe64a;');
 }
 .ti-angle-down {
@@ -268,19 +268,19 @@
 .ti-fullscreen {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe659;');
 }
-.ti-arrow-top-right {
+.ti-arrow-top-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe65a;');
 }
-.ti-arrow-top-left {
+.ti-arrow-top-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe65b;');
 }
 .ti-arrow-circle-up {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe65c;');
 }
-.ti-arrow-circle-right {
+.ti-arrow-circle-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe65d;');
 }
-.ti-arrow-circle-left {
+.ti-arrow-circle-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe65e;');
 }
 .ti-arrow-circle-down {
@@ -289,10 +289,10 @@
 .ti-angle-double-up {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe660;');
 }
-.ti-angle-double-right {
+.ti-angle-double-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe661;');
 }
-.ti-angle-double-left {
+.ti-angle-double-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe662;');
 }
 .ti-angle-double-down {
@@ -361,10 +361,10 @@
 .ti-shine {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe678;');
 }
-.ti-shift-right {
+.ti-shift-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe679;');
 }
-.ti-shift-left {
+.ti-shift-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe67a;');
 }
 .ti-shield {
@@ -376,10 +376,10 @@
 .ti-server {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe67d;');
 }
-.ti-quote-right {
+.ti-quote-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe67e;');
 }
-.ti-quote-left {
+.ti-quote-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe67f;');
 }
 .ti-pulse {
@@ -562,10 +562,10 @@
 .ti-bar-chart-alt {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6bb;');
 }
-.ti-back-right {
+.ti-back-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6bc;');
 }
-.ti-back-left {
+.ti-back-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6bd;');
 }
 .ti-arrows-corner {
@@ -577,10 +577,10 @@
 .ti-anchor {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6c0;');
 }
-.ti-align-right {
+.ti-align-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6c1;');
 }
-.ti-align-left {
+.ti-align-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6c2;');
 }
 .ti-align-justify {
@@ -649,10 +649,10 @@
 .ti-shortcode {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6d8;');
 }
-.ti-shift-right-alt {
+.ti-shift-left-alt {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6d9;');
 }
-.ti-shift-left-alt {
+.ti-shift-right-alt {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6da;');
 }
 .ti-ruler-alt-2 {
@@ -721,13 +721,13 @@
 .ti-layout-slider-alt {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6f0;');
 }
-.ti-layout-sidebar-right {
+.ti-layout-sidebar-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6f1;');
 }
 .ti-layout-sidebar-none {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6f2;');
 }
-.ti-layout-sidebar-left {
+.ti-layout-sidebar-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6f3;');
 }
 .ti-layout-placeholder {
@@ -745,10 +745,10 @@
 .ti-layout-menu-full {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6f8;');
 }
-.ti-layout-media-right-alt {
+.ti-layout-media-left-alt {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6f9;');
 }
-.ti-layout-media-right {
+.ti-layout-media-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6fa;');
 }
 .ti-layout-media-overlay {
@@ -760,10 +760,10 @@
 .ti-layout-media-overlay-alt-2 {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6fd;');
 }
-.ti-layout-media-left-alt {
+.ti-layout-media-right-alt {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6fe;');
 }
-.ti-layout-media-left {
+.ti-layout-media-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6ff;');
 }
 .ti-layout-media-center-alt {
@@ -799,19 +799,19 @@
 .ti-layout-grid2-thumb {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe70a;');
 }
-.ti-layout-cta-right {
+.ti-layout-cta-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe70b;');
 }
-.ti-layout-cta-left {
+.ti-layout-cta-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe70c;');
 }
 .ti-layout-cta-center {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe70d;');
 }
-.ti-layout-cta-btn-right {
+.ti-layout-cta-btn-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe70e;');
 }
-.ti-layout-cta-btn-left {
+.ti-layout-cta-btn-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe70f;');
 }
 .ti-layout-column4 {
@@ -847,10 +847,10 @@
 .ti-hand-point-up {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe71a;');
 }
-.ti-hand-point-right {
+.ti-hand-point-left {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe71b;');
 }
-.ti-hand-point-left {
+.ti-hand-point-right {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe71c;');
 }
 .ti-hand-point-down {

@@ -20,9 +20,9 @@ h3 {
 .icon-container {
 	width: 240px; 
 	padding: .7em 0;
-	float: left; 
+	float: right; 
 	position: relative;
-	text-align: left;
+	text-align: right;
 }
 .icon-container [class^="ti-"], 
 .icon-container [class*=" ti-"] {
@@ -41,10 +41,10 @@ h3 {
 }
 .icon-name {
 	color: #aaa;
-	margin-left: 35px;
+	margin-right: 35px;
 	font-size: .8em;
 	transition: .3s;
 }
 .icon-container:hover .icon-name {
-	margin-left: 45px;
+	margin-right: 45px;
 }

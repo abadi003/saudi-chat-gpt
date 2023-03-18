@@ -372,7 +372,7 @@
 					"id": 59,
 					"prevSize": 32,
 					"code": 58920,
-					"name": "arrow-right",
+					"name": "arrow-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -381,7 +381,7 @@
 					"id": 58,
 					"prevSize": 32,
 					"code": 58921,
-					"name": "arrow-left",
+					"name": "arrow-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -669,7 +669,7 @@
 					"id": 26,
 					"prevSize": 32,
 					"code": 58953,
-					"name": "angle-right",
+					"name": "angle-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -678,7 +678,7 @@
 					"id": 25,
 					"prevSize": 32,
 					"code": 58954,
-					"name": "angle-left",
+					"name": "angle-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -822,7 +822,7 @@
 					"id": 9,
 					"prevSize": 32,
 					"code": 58970,
-					"name": "arrow-top-right",
+					"name": "arrow-top-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -831,7 +831,7 @@
 					"id": 8,
 					"prevSize": 32,
 					"code": 58971,
-					"name": "arrow-top-left",
+					"name": "arrow-top-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -849,7 +849,7 @@
 					"id": 6,
 					"prevSize": 32,
 					"code": 58973,
-					"name": "arrow-circle-right",
+					"name": "arrow-circle-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -858,7 +858,7 @@
 					"id": 5,
 					"prevSize": 32,
 					"code": 58974,
-					"name": "arrow-circle-left",
+					"name": "arrow-circle-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -885,7 +885,7 @@
 					"id": 2,
 					"prevSize": 32,
 					"code": 58977,
-					"name": "angle-double-right",
+					"name": "angle-double-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -894,7 +894,7 @@
 					"id": 1,
 					"prevSize": 32,
 					"code": 58978,
-					"name": "angle-double-left",
+					"name": "angle-double-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -1322,7 +1322,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"arrow-right"
+						"arrow-left"
 					]
 				},
 				{
@@ -1332,7 +1332,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"arrow-left"
+						"arrow-right"
 					]
 				},
 				{
@@ -1652,7 +1652,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"angle-right"
+						"angle-left"
 					]
 				},
 				{
@@ -1662,7 +1662,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"angle-left"
+						"angle-right"
 					]
 				},
 				{
@@ -1822,7 +1822,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"arrow-top-right"
+						"arrow-top-left"
 					]
 				},
 				{
@@ -1832,7 +1832,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"arrow-top-left"
+						"arrow-top-right"
 					]
 				},
 				{
@@ -1852,7 +1852,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"arrow-circle-right"
+						"arrow-circle-left"
 					]
 				},
 				{
@@ -1862,7 +1862,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"arrow-circle-left"
+						"arrow-circle-right"
 					]
 				},
 				{
@@ -1892,7 +1892,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"angle-double-right"
+						"angle-double-left"
 					]
 				},
 				{
@@ -1902,7 +1902,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"angle-double-left"
+						"angle-double-right"
 					]
 				},
 				{
@@ -2114,7 +2114,7 @@
 					"id": 78,
 					"prevSize": 32,
 					"code": 59001,
-					"name": "shift-right",
+					"name": "shift-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -2123,7 +2123,7 @@
 					"id": 77,
 					"prevSize": 32,
 					"code": 59002,
-					"name": "shift-left",
+					"name": "shift-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -2159,7 +2159,7 @@
 					"id": 73,
 					"prevSize": 32,
 					"code": 59006,
-					"name": "quote-right",
+					"name": "quote-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -2168,7 +2168,7 @@
 					"id": 72,
 					"prevSize": 32,
 					"code": 59007,
-					"name": "quote-left",
+					"name": "quote-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -2717,7 +2717,7 @@
 					"id": 11,
 					"prevSize": 32,
 					"code": 59068,
-					"name": "back-right",
+					"name": "back-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -2726,7 +2726,7 @@
 					"id": 10,
 					"prevSize": 32,
 					"code": 59069,
-					"name": "back-left",
+					"name": "back-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -2762,7 +2762,7 @@
 					"id": 6,
 					"prevSize": 32,
 					"code": 59073,
-					"name": "align-right",
+					"name": "align-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -2771,7 +2771,7 @@
 					"id": 5,
 					"prevSize": 32,
 					"code": 59074,
-					"name": "align-left",
+					"name": "align-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -3045,7 +3045,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"shift-right"
+						"shift-left"
 					]
 				},
 				{
@@ -3055,7 +3055,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"shift-left"
+						"shift-right"
 					]
 				},
 				{
@@ -3095,7 +3095,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"quote-right"
+						"quote-left"
 					]
 				},
 				{
@@ -3105,7 +3105,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"quote-left"
+						"quote-right"
 					]
 				},
 				{
@@ -3715,7 +3715,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"back-right"
+						"back-left"
 					]
 				},
 				{
@@ -3725,7 +3725,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"back-left"
+						"back-right"
 					]
 				},
 				{
@@ -3765,7 +3765,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"align-right"
+						"align-left"
 					]
 				},
 				{
@@ -3775,7 +3775,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"align-left"
+						"align-right"
 					]
 				},
 				{
@@ -3991,7 +3991,7 @@
 					"id": 78,
 					"prevSize": 32,
 					"code": 59097,
-					"name": "shift-right-alt",
+					"name": "shift-left-alt",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4000,7 +4000,7 @@
 					"id": 77,
 					"prevSize": 32,
 					"code": 59098,
-					"name": "shift-left-alt",
+					"name": "shift-right-alt",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4207,7 +4207,7 @@
 					"id": 54,
 					"prevSize": 32,
 					"code": 59121,
-					"name": "layout-sidebar-right",
+					"name": "layout-sidebar-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4225,7 +4225,7 @@
 					"id": 52,
 					"prevSize": 32,
 					"code": 59123,
-					"name": "layout-sidebar-left",
+					"name": "layout-sidebar-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4279,7 +4279,7 @@
 					"id": 46,
 					"prevSize": 32,
 					"code": 59129,
-					"name": "layout-media-right-alt",
+					"name": "layout-media-left-alt",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4288,7 +4288,7 @@
 					"id": 45,
 					"prevSize": 32,
 					"code": 59130,
-					"name": "layout-media-right",
+					"name": "layout-media-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4324,7 +4324,7 @@
 					"id": 41,
 					"prevSize": 32,
 					"code": 59134,
-					"name": "layout-media-left-alt",
+					"name": "layout-media-right-alt",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4333,7 +4333,7 @@
 					"id": 40,
 					"prevSize": 32,
 					"code": 59135,
-					"name": "layout-media-left",
+					"name": "layout-media-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4441,7 +4441,7 @@
 					"id": 28,
 					"prevSize": 32,
 					"code": 59147,
-					"name": "layout-cta-right",
+					"name": "layout-cta-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4450,7 +4450,7 @@
 					"id": 27,
 					"prevSize": 32,
 					"code": 59148,
-					"name": "layout-cta-left",
+					"name": "layout-cta-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4468,7 +4468,7 @@
 					"id": 25,
 					"prevSize": 32,
 					"code": 59150,
-					"name": "layout-cta-btn-right",
+					"name": "layout-cta-btn-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4477,7 +4477,7 @@
 					"id": 24,
 					"prevSize": 32,
 					"code": 59151,
-					"name": "layout-cta-btn-left",
+					"name": "layout-cta-btn-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4585,7 +4585,7 @@
 					"id": 12,
 					"prevSize": 32,
 					"code": 59163,
-					"name": "hand-point-right",
+					"name": "hand-point-left",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4594,7 +4594,7 @@
 					"id": 11,
 					"prevSize": 32,
 					"code": 59164,
-					"name": "hand-point-left",
+					"name": "hand-point-right",
 					"tempChar": "",
 					"ligatures": ""
 				},
@@ -4882,7 +4882,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"shift-right-alt"
+						"shift-left-alt"
 					]
 				},
 				{
@@ -4892,7 +4892,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"shift-left-alt"
+						"shift-right-alt"
 					]
 				},
 				{
@@ -5124,7 +5124,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-sidebar-right"
+						"layout-sidebar-left"
 					]
 				},
 				{
@@ -5144,7 +5144,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-sidebar-left"
+						"layout-sidebar-right"
 					]
 				},
 				{
@@ -5204,7 +5204,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-media-right-alt"
+						"layout-media-left-alt"
 					]
 				},
 				{
@@ -5214,7 +5214,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-media-right"
+						"layout-media-left"
 					]
 				},
 				{
@@ -5254,7 +5254,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-media-left-alt"
+						"layout-media-right-alt"
 					]
 				},
 				{
@@ -5269,7 +5269,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-media-left"
+						"layout-media-right"
 					]
 				},
 				{
@@ -5392,7 +5392,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-cta-right"
+						"layout-cta-left"
 					]
 				},
 				{
@@ -5402,7 +5402,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-cta-left"
+						"layout-cta-right"
 					]
 				},
 				{
@@ -5422,7 +5422,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-cta-btn-right"
+						"layout-cta-btn-left"
 					]
 				},
 				{
@@ -5432,7 +5432,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"layout-cta-btn-left"
+						"layout-cta-btn-right"
 					]
 				},
 				{
@@ -5552,7 +5552,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"hand-point-right"
+						"hand-point-left"
 					]
 				},
 				{
@@ -5562,7 +5562,7 @@
 					],
 					"grid": 0,
 					"tags": [
-						"hand-point-left"
+						"hand-point-right"
 					]
 				},
 				{
