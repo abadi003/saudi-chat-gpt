@@ -34,66 +34,159 @@
 <form [formGroup]="regForm" (ngSubmit)="submit()" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div class="row">
 <div class="col-md-12">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-name"><input [formControl]="regForm.controls.CompanyName" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="اسم الشركة" value="" type="text" name="your-name"></span>
+  <p><span class="wpcf7-form-control-wrap" data-name="your-name"><input [formControl]="regForm.controls.companyName" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Company Name" value="" type="text" name="your-name"></span>
   </p>
 </div>
-<div class="col-md-4">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.CompanySize" class="" aria-label="Default select example">
-    <option value="" selected disabled>حجم الشركة</option>
-    <option value="الاتصالات السعودية">شركة كبرى</option>
-    <option value="اسمنت اليمامة">شركة متوسطة</option>
-    <option value="الشركة الشرقية للتنمية">شركة صغيرة</option>
+<div class="col-md-3">
+  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.companySize" class="" aria-label="Default select example">
+    <option value="" selected disabled>Company Size</option>
+    <option value="Large">Large</option>
+    <option value="Medium">Medium</option>
+    <option value="Small">Small</option>
   </select></span>
   </p>
 </div>
-<div class="col-md-4">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.sectorName" class="" aria-label="Default select example">
-    <option value="" selected disabled>قطاع الشركة</option>
-    <option value="الطاقة">الطاقة</option>
-    <option value="المواد الاساسية">المواد الاساسية</option>
-    <option value="السلع الاستهلاكية الكمالية">السلع الاستهلاكية الكمالية</option>
-    <option value="السلع الاستهلاكية الأساسية">السلع الاستهلاكية الأساسية</option>
-    <option value="الصحة">الصحة</option>
-    <option value="المالية">المالية</option>
-    <option value="تقنية المعلومات">تقنية المعلومات</option>
-    <option value="الاتصالات">الاتصالات</option>
-    <option value="المرافق العامة">المرافق العامة</option>
-    <option value="العقار">العقار</option>
+<div class="col-md-3">
+  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.companySector" class="" aria-label="Default select example">
+    <option value="" selected disabled>Company Sector</option>
+    <option value="Energy">Energy</option>
+    <option value="Basic Materials">Basic Materials</option>
+    <option value="Luxury Consumer Goods">Luxury Consumer Goods</option>
+    <option value="Essential Consumer Goods">Essential Consumer Goods</option>
+    <option value="Healthcare">Healthcare</option>
+    <option value="Financial">Financial</option>
+    <option value="Information Technology">Information Technology</option>
+    <option value="Telecommunications">Telecommunications</option>
+    <option value="Public Utilities">Public Utilities</option>
+    <option value="Real Estate">Real Estate</option>
   </select></span>
   </p>
 </div>
-<div class="col-md-4">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.RegulationName" class="" aria-label="Default select example">
-    <option value="" selected disabled>المادة</option>
-    <option value="المعاملة العادلة للمساهمين">المعاملة العادلة للمساهمين</option>
-    <option value="الحقوق المرتبطة بالأسهم">الحقوق المرتبطة بالأسهم</option>
-    <option value="حصول المساهم على المعلومات">حصول المساهم على المعلومات</option>
-    <option value="التواصل مع المساهمين">التواصل مع المساهمين</option>
-    <option value="انتخاب أعضاء مجلس الإدارة">انتخاب أعضاء مجلس الإدارة</option>
-    <option value="الحصول على أرباح">الحصول على أرباح</option>
-    <option value="اختصاصات الجمعية العامة غير العادية">اختصاصات الجمعية العامة غير العادية</option>
-    <option value="اختصاصات الجمعية العامة العادية">اختصاصات الجمعية العامة العادية</option>
-    <option value="جمعية المساهمين">جمعية المساهمين</option>
-    <option value="جدول أعمال الجمعية العامة">جدول أعمال الجمعية العامة</option>
-    <option value="إدارة جمعية المساهمين">إدارة جمعية المساهمين</option>
+<div class="col-md-3">
+  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.subject" class="" aria-label="Default select example">
+    <option value="" selected disabled>subject</option>
+    <option value="Fair Treatment of Shareholders">Fair Treatment of Shareholders</option>
+    <option value="Shareholder Rights">Shareholder Rights</option>
+    <option value="Access to Information for Shareholders">Access to Information for Shareholders</option>
+    <option value="Communication with Shareholders">Communication with Shareholders</option>
+    <option value="Election of Board Members">Election of Board Members</option>
+    <option value="Distribution of Profits">Distribution of Profits</option>
+    <option value="General Assembly Authorities">General Assembly Authorities</option>
+    <option value="Ordinary General Assembly Authorities">Ordinary General Assembly Authorities</option>
+    <option value="Shareholders' Association">Shareholders' Association</option>
+    <option value="Subsidiary Company">Subsidiary Company</option>
+    <option value="Joint Venture">Joint Venture</option>
   </select></span>
   </p>
+</div>
+<div class="col-md-3">
+  <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select [formControl]="regForm.controls.businessType" class="" aria-label="Default select example">
+    <option value="" selected disabled>Company type</option>
+    <option value="Public Joint Stock Company">Public Joint Stock Company</option>
+    <option value="Limited Liability Company">Limited Liability Company</option>
+    <option value="Private Joint Stock Company">Private Joint Stock Company</option>
+    <option value="Public Limited Liability Company">Public Limited Liability Company</option>
+    <option value="Cooperative Company">Cooperative Company</option>
+    <option value="Sole Proprietorship">Sole Proprietorship</option>
+    <option value="General Partnership">General Partnership</option>
+    <option value="Limited Partnership">Limited Partnership</option>
+    <option value="Holding Company">Holding Company</option>
+    <option value="Subsidiary Company">Subsidiary Company</option>
+    <option value="Joint Venture">Joint Venture</option>
+  </select></span>
+  </p>
+</div>
+<div class="text-start my-5 col-7">
+  <label  for="isListed">Is the company listed on the Saudi Stock Exchange or operating as an unlisted company?</label>
+  <div class="col-2 d-flex justify-content-between">
+    <div class="align-items-end d-flex">
+      <input [formControl]="regForm.controls.isStock" value="true" type="radio" name="isStock" id="flexRadioDefault1">
+      <label class="form-check-label m-2" for="flexRadioDefault1">
+        Listed
+      </label>
+    </div>
+    <div class="align-items-end d-flex">
+      <input [formControl]="regForm.controls.isStock" value="false" type="radio" name="isStock" id="flexRadioDefault2">
+      <label class="form-check-label m-2" for="flexRadioDefault2">
+        Unlisted
+      </label>
+    </div>
+  </div>
+</div>
+<div class="text-start my-5 col-5">
+  <label  for="isBoardDirectors">Does the company have a board of directors?</label>
+  <div class="col-2 d-flex justify-content-between">
+    <div class="align-items-end d-flex">
+      <input formControlName="boardMembers" value="true" type="radio" name="boardMembers" id="isBoardDirectors1">
+      <label class="form-check-label m-2" for="isBoardDirectors1">
+        Yes
+      </label>
+    </div>
+    <div class="align-items-end d-flex">
+      <input formControlName="boardMembers" value="false" type="radio" name="boardMembers" id="isBoardDirectors2">
+      <label class="form-check-label m-2" for="isBoardDirectors2">
+        No
+      </label>
+    </div>
+  </div>
 </div>
 <div class="col-md-12">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea [formControl]="regForm.controls.moreDetails" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="المزيد من التفاصيل" name="your-message"></textarea></span>
+  <div class="col-md-3">
+    <p><span class="wpcf7-form-control-wrap" data-name="your-email"><select formControlName="companyPart" class="" aria-label="Default select example">
+      <option value="" selected disabled>Contributing parties</option>
+      <option value="Individuals">Individuals</option>
+      <option value="Companies">Companies</option>
+      <option value="Investment Funds">Investment Funds</option>
+      <option value="Government Entities">Government Entities</option>
+      <option value="Banks">Banks</option>
+      <option value="Financial Institutions">Financial Institutions</option>
+    </select></span>
+    </p>
+  </div>
+</div>
+<div class="col-md-7 text-start">
+  <label for="">Are there any legal requirements or industry-specific laws that must be complied with? What are they?</label>
+  <p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea formControlName="legalRequirements" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="More Details..." ></textarea></span>
   </p>
 </div>
-<div class="col-md-12 mt-3">
-  <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="ارسل"><span class="wpcf7-spinner"></span>
+<div class="col-md-5 text-start">
+  <label for="">What are the company's regulatory policies and procedures?</label>
+  <p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea formControlName="policy" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="More Details..." ></textarea></span>
+  </p>
+</div>
+<div class="col-md-12 mt-3 text-start">
+  <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="submit"><span class="wpcf7-spinner"></span>
   </p>
 </div>
 </div><div class="wpcf7-response-output" aria-hidden="true"></div>
 </form>
-<div *ngIf="response" class="col-md-12">
-  <p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea [value]="response" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="" name="your-message"></textarea></span>
-  </p>
-</div>
-<app-rating></app-rating>
+<ngb-accordion *ngIf="response" #acc="ngbAccordion" [closeOthers]="true" activeIds="ngb-panel-0">
+	<ngb-panel title="Recommended Regulations">
+		<ng-template ngbPanelContent>
+      <div  class="col-md-12">
+        <p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea [value]="response.chatGPT" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="" ></textarea></span>
+        </p>
+      </div>
+		</ng-template>
+	</ngb-panel>
+	<ngb-panel>
+		<ng-template ngbPanelTitle>
+			<span> Recommended Specialist </span>
+		</ng-template>
+		<ng-template ngbPanelContent>
+      <div class="d-flex">
+        <div *ngFor="let user of response.result" class="align-items-center card col-4 flex-row justify-content-between p-3">
+          <h5 class="card-title">{{user.question}}</h5>
+          <span> {{Math.floor(user.similarity*100)}} </span>
+          <mat-progress-spinner
+          class="example-margin card-img-top"
+          [value]="user.similarity*100">
+      </mat-progress-spinner>
+        </div>
+      </div>
+		</ng-template>
+	</ngb-panel>
+</ngb-accordion>
 </div>
 </div><!-- .contact-form --></div><!-- .contact-form-wrapper -->		</div>
       </div>
